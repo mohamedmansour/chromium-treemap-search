@@ -20,7 +20,7 @@
 <body>
   <div id='container'></div>
   <script>
-    fetch('data.json').then(response => response.json()).then(json => { 
+    fetch('index.json').then(response => response.json()).then(json => { 
       let options = {
         caption: function humanSizeCaption(n) {
             return `${n.id || ''} (${n.size})`
