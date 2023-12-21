@@ -14,3 +14,8 @@ python -m http.server
 
 ## Treemap example
 ![Screenshot](screenshot.png)
+
+## Nice to have feature requests:
+- Path search to drill down to that folder quickly.
+- Copy the navigational path once we drill down.
+- Automatically figure out which folders to pick to reach some objective like 300 files.
